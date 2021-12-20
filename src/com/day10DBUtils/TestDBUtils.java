@@ -36,6 +36,8 @@ public class TestDBUtils {
             List<Dog> dogs = qr.query(sql, new BeanListHandler<Dog>(Dog.class));
             System.out.println(dogs);
 
+            System.out.println(111);
+
             // 2.MapListHandler
 //            List<Map<String, Object>> maps = qr.query(sql, new MapListHandler());
 //            System.out.println(maps.get(0).get("name"));
