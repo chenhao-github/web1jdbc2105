@@ -41,6 +41,8 @@ public class TestDBUtils {
             System.out.println(555);
             System.out.println("aaa");
             System.out.println("bbb");
+            System.out.println("ccc");
+            System.out.println("顶顶顶");
             // 2.MapListHandler
 //            List<Map<String, Object>> maps = qr.query(sql, new MapListHandler());
 //            System.out.println(maps.get(0).get("name"));
